@@ -1,5 +1,5 @@
 <div class="my-20">
-    <form class="max-w-md mx-auto mt-8 space-y-6 mt-auto my-10" action="http://127.0.0.1:5000/submit" method="post">
+    <form class="max-w-md mx-auto mt-8 space-y-6 mt-auto my-10" action="mailto:sanjanabhat2002@gmail.com" method="post">
       <div>
        
       
@@ -36,10 +36,10 @@
     <div class="mt-4">
         <label class="block font-medium text-gray-700" for="gender">Mode of danger</label>
         <select name="danger" class="text-black form-select mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="danger">
-          <option value="male">Choose here</option>
-          <option value="male">Abandoned</option>
-          <option value="female">Sick</option>
-          <option value="unknown">Abuse</option>
+          <option value="">Choose here</option>
+          <option value="abandoned">Abandoned</option>
+          <option value="sick">Sick</option>
+          <option value="abuse">Abuse</option>
         </select>
       </div>
     
