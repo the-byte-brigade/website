@@ -45,7 +45,7 @@
     
     <div class="mt-4">
       <label class="block font-medium text-gray-700" for="other-questions">Give us more details</label>
-      <textarea class="text-black form-textarea mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="other-questions" rows="3"></textarea>
+      <textarea class="text-black form-textarea mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="other-questions" name="other-questions" rows="3"></textarea>
     </div>
     <div class="mt-6">
       <button class="px-4 py-2 bg-indigo-600 border border-transparent rounded-md font-semibold text-white hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700 active:bg-indigo-800 transition duration-150 ease-in-out">Submit</button>
