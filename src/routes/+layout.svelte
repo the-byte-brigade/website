@@ -10,5 +10,6 @@
         <slot/>
         
     </main>
-    <Footer /> 
+    <div id="footer"><Footer /></div>
+     
 </div>

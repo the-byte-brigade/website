@@ -1,4 +1,4 @@
-<div class="about text-black">
+<div class="about text-black my-5">
     <h1 class="text-4xl mx-10">About us</h1>
     <p class="text-2xl mx-10">There's something special about animals. Maybe it's their innocence, their loyalty, or just their cute little faces. But unfortunately, not all animals are lucky enough to have a loving home or a happy life. That's where rescue organizations come in. They give these animals a second chance at life, a chance to be loved and cared for like they deserve. And let's not forget about the positive impact rescuing animals has on the world. Not only does it give animals a chance at a better life, but it also helps to reduce overpopulation, prevent the mistreatment of animals, and promote a more compassionate society. So next time you see an animal in need, remember the difference you can make by choosing to rescue.
     </p>

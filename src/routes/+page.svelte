@@ -8,4 +8,5 @@
     <Quote />
     <Carousel />
 </div>
-<About />
+<div id="about"><About /></div>
+
