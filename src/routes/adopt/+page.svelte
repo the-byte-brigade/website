@@ -36,7 +36,7 @@
     </div>
 
     <label class="block font-medium text-gray-700" for="animal-preference">Animal preference</label>
-    <select class="text-black form-select mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="animal-preference">
+    <select name="animal-preference" class="text-black form-select mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="animal-preference">
       <option value="">Choose an animal</option>
       <option value="dog">Dog</option>
       <option value="cat">Cat</option>
