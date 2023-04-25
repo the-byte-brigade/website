@@ -6,9 +6,9 @@
     import Footer from "../components/Footer.svelte";
 </script>
 
-<body class="flex flex-col bg-lime-300">
+<body class="flex flex-col bg-gradient-to-bl from-lime-100 via-lime-400 to-lime-600">
     <br><br><br>
-    <div class="flex justify-center align-center gap-4">
+    <div class="flex justify-center align-center gap-4 my-20">
         <Quote />
         <Carousel />
     </div>
