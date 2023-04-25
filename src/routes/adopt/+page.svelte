@@ -1,4 +1,4 @@
-
+<div class="my-20">
 <form class="max-w-md mx-auto mt-8 space-y-6 mt-auto my-10">
     <div>
       <label class="block font-medium text-gray-700 text-left" for="first-name">First Name</label>
@@ -84,6 +84,7 @@
     <button class="px-4 py-2 bg-indigo-600 border border-transparent rounded-md font-semibold text-white hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700 active:bg-indigo-800 transition duration-150 ease-in-out">Submit</button>
   </div>
 </form>
+</div>
     <!-- <div>
       <label class="block font-medium text-gray-700" for="animal-preference">Animal Preference</label>
       <div class="grid grid-cols-3 gap-4">
@@ -99,19 +100,6 @@
             <option>Other</option>
           </select>
         </div> -->
-
-
-        <style>
-          form {
-  position: absolute;
-  top: 100px; /* adjust this value to match the height of your header */
-  bottom: 100px; /* adjust this value to match the height of your footer */
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 80%; /* adjust this value to match your desired width */
-}
-        </style>
 
       
       

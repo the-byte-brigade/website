@@ -19,6 +19,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@lottiefiles/svelte-lottie-player": "^0.3.0",
 		"flowbite-svelte": "^0.34.9"
 	}
 }
