@@ -2,7 +2,7 @@
 text-3xl text-white text-center
 
 fixed
-inset-x-0
+inset-x-0 pt-10
 bottom-0
 p-4">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -41,4 +41,12 @@ p-4">
     </span>
   </div>
 </footer>
+<style>
+  footer {
+  position: relative;
+  margin-top: 180vh;
+}
+</style>
+
+
 

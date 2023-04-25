@@ -1,5 +1,5 @@
-<script></script>
-<form class="max-w-md mx-auto mt-8 space-y-6">
+
+<form class="max-w-md mx-auto mt-8 space-y-6 mt-auto my-10">
     <div>
       <label class="block font-medium text-gray-700 text-left" for="first-name">First Name</label>
       <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="first-name" type="text">
@@ -99,6 +99,19 @@
             <option>Other</option>
           </select>
         </div> -->
+
+
+        <style>
+          form {
+  position: absolute;
+  top: 100px; /* adjust this value to match the height of your header */
+  bottom: 100px; /* adjust this value to match the height of your footer */
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80%; /* adjust this value to match your desired width */
+}
+        </style>
 
       
       

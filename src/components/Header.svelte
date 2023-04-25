@@ -1,7 +1,4 @@
-
-
-
-<nav class="bg-green dark:bg-transparent fixed w-full z-20 top-0 left-0 text-2xl backdrop-blur-lg">
+<nav class="bg-green dark:bg-transparent absolute w-full z-20 top-0 left-0 text-2xl backdrop-blur-lg">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="/" class="flex items-center">
         <span class="self-center text-4xl font-semibold whitespace-nowrap dark:text-black">Happy Tails</span>

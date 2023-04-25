@@ -6,7 +6,7 @@
     import Footer from "../components/Footer.svelte";
 </script>
 
-<body class="flex flex-col">
+<body class="flex flex-col bg-lime-300">
     <br><br><br>
     <div class="flex justify-center align-center gap-4">
         <Quote />
