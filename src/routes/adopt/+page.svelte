@@ -1,38 +1,38 @@
 <div class="my-20">
-<form class="max-w-md mx-auto mt-8 space-y-6 mt-auto my-10">
+  <form class="max-w-md mx-auto mt-8 space-y-6 mt-auto my-10" action="http://127.0.0.1:5000/submit" method="post">
     <div>
       <label class="block font-medium text-gray-700 text-left" for="first-name">First Name</label>
-      <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="first-name" type="text">
+      <input name="first-name" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="first-name" type="text">
     </div>
     <div>
       <label class="block font-medium text-gray-700 text-left" for="last-name">Last Name</label>
-      <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="last-name" type="text">
+      <input name="last-name" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="last-name" type="text">
     </div>
     <div>
       <label class="block font-medium text-gray-700 text-left" for="email">E-mail</label>
-      <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="email" type="email">
+      <input name="email" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="email" type="email">
     </div>
     <div>
       <label class="block font-medium text-gray-700 text-left" for="address">Address</label>
-      <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="address" type="text">
+      <input name="address" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="address" type="text">
     </div>
     <div class="grid grid-cols-3 gap-4">
       <div>
         <label class="block font-medium text-gray-700 text-left" for="city">City</label>
-        <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="city" type="text">
+        <input name="city" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="city" type="text">
       </div>
       <div>
         <label class="block font-medium text-gray-700 text-left" for="state">State</label>
-        <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="state" type="text">
+        <input name="state" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="state" type="text">
       </div>
       <div>
         <label class="block font-medium text-gray-700 text-left" for="country">Country</label>
-        <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="country" type="text">
+        <input name="country" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="country" type="text">
       </div>
     </div>
     <div>
       <label class="block font-medium text-gray-700 text-left" for="phone-number">Phone Number</label>
-      <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="phone-number" type="tel">
+      <input name="phone-number" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="phone-number" type="tel">
     </div>
 
     <label class="block font-medium text-gray-700" for="animal-preference">Animal preference</label>
@@ -46,11 +46,11 @@
   
   <div class="mt-4">
     <label class="block font-medium text-gray-700" for="color">Color</label>
-    <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="color" type="text">
+    <input name="color" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="color" type="text">
   </div>
   <div class="mt-4">
     <label class="block font-medium text-gray-700" for="gender">Gender</label>
-    <select class="text-black form-select mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="gender">
+    <select name="gender" class="text-black form-select mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="gender">
       <option value="">Choose a gender</option>
       <option value="male">Male</option>
       <option value="female">Female</option>
@@ -59,7 +59,7 @@
   </div>
   <div class="mt-4">
     <label class="block font-medium text-gray-700" for="breed">Breed</label>
-    <input class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="breed" type="text">
+    <input name="breed" class="text-black form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm" id="breed" type="text">
   </div>
   <div class="mt-4">
     <label class="block font-medium text-gray-700">Ownership commitment</label>
