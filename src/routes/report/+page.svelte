@@ -55,7 +55,7 @@
     <form
         on:submit={handleSubmit}
         class="max-w-md mx-auto mt-8 space-y-6 mt-auto my-10"
-        action="http://127.0.0.1:5000/submit"
+        action="http://127.0.0.1:5000/submitreport"
         method="post"
     >
         <div>

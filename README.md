@@ -1,38 +1,29 @@
-# create-svelte
+# A website for Happy Tails
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Description:
 
-## Creating a project
+This website provides a platform where users can report the occurence or abuse of stray animals. This information is then used by higher authorities to take appropriate action. The website also provides a platform for submitting applications of adoption of said animals, and also a page describing how to take care of them.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Tech Stack:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Sveltekit, Tailwind CSS
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Installation Steps:
 
-## Developing
+##### 1. Clone this repository
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+`git clone https://github.com/the-byte-brigade/website.git`
 
-```bash
-npm run dev
+##### 2. cd into the repo
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+`cd website`
 
-## Building
+##### 3. Install dependencies
 
-To create a production version of your app:
+`npm install`
 
-```bash
-npm run build
-```
+##### 4. Run the project
 
-You can preview the production build with `npm run preview`.
+`npm run dev`
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Run the project after running the API.
